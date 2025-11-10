@@ -1,0 +1,116 @@
+body {
+  font-family: "Menlo", monospace;
+  background-color: #bec8d1; 
+  color: #373b3e; 
+}
+
+.card {
+  background-color: #fff;
+  border: 2px solid #137a7f;
+  border-radius: 10px;
+  box-shadow: none;
+}
+
+.table {
+  border-color: #137a7f;
+  color: #373b3e;
+}
+
+.table th {
+  background-color: #137a7f;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #86cecb33; 
+}
+
+.btn {
+  font-family: "Menlo", monospace;
+  border-radius: 6px;
+  border: 1px solid #373b3e;
+}
+
+
+.btn-success {
+  background-color: #137a7f !important;
+  color: #fff !important;
+  border-color: #137a7f !important;
+}
+
+
+.btn-warning {
+  background-color: #86cecb !important;
+  color: #373b3e !important;
+  border-color: #137a7f !important;
+}
+
+
+.btn-danger {
+  background-color: #e12885 !important;
+  color: #fff !important;
+  border-color: #e12885 !important;
+}
+
+
+.page-link {
+  color: #137a7f !important;
+  border: 1px solid #137a7f !important;
+  background-color: transparent !important;
+}
+
+
+input.form-control {
+  background-color: #fff;
+  color: #373b3e;
+  border: 1px solid #137a7f;
+  box-shadow: none;
+}
+
+input.form-control:focus {
+  border-color: #e12885;
+  outline: none;
+  box-shadow: none;
+}
+
+.menu-dropdown {
+  position: absolute;
+  top: 30px;
+  right: 0;
+  background: #fff;
+  border: 1px solid #137a7f;
+  border-radius: 4px;
+  z-index: 100;
+  padding: 5px;
+}
+
+.text-primary {
+  color: #e12885 !important;
+}
+
+.btn-outline-danger {
+    color: #fff !important;
+    background-color: #e12885 !important;
+    border-color: #e12885 !important;
+}
+
+.btn-outline-primary {
+    background-color: #ffffff !important;
+    color: #373b3e !important;
+    border-color: #e12885 !important;
+}
+
+.btn-primary {
+    background-color: #fff !important;
+    color: #137a7f !important;
+    border-color: #e12885 !important;
+}
+
+
+.btn-secondary {
+    color: #fff !important;
+    background-color: #e12885 !important;
+    border-color: #e12885 !important;
+}
